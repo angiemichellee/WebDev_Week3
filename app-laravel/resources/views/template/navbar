@@ -1,0 +1,5 @@
+        <div style="display: flex; gap: 30px;">
+            <a href="/welcome" style="color: white; text-decoration: none;">Home</a>
+            <a href="/secondPage" style="color: white; text-decoration: none;">About</a>
+            <a href="/thirdPage" style="color: white; text-decoration: none;">Contact</a>
+        </div>

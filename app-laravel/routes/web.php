@@ -7,10 +7,14 @@ Route::get('/welcome', function () {
 })->name('welcome');
 
 Route::get('/secondPage', function () {
-    return view('secondPage', ['title' => "My Project"]);
+    $projects = ['Calculator', 'Accounting', 'Studentreport', 'POS Resto', 'Online Store', 'Pet Shop'];
+    return view('secondPage', ['judul' => "My Project", 'project' => $projects]);
 })->name('secondPage');
 
 Route::get('/thirdPage', function () {
     return view('thirdPage', ['title' => "Contact"]);
 })->name('thirdPage');
 
+Route::get('/new', function () {
+    return view('new', ['title' => "Blade Checkerboard"]); 
+})->name('new');
