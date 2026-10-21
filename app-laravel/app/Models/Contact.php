@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class thirdPage extends Model
+class contact extends Model
 {
     //
 }

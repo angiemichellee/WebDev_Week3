@@ -1,20 +1,23 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\ChessController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/welcome', function () {
-    return view('welcome', ['title' => "Welcome Home"]); 
-})->name('welcome');
+Route::get('/welcome', 
+[welcomeController::class, 'welcome']);
 
-Route::get('/secondPage', function () {
-    $projects = ['Calculator', 'Accounting', 'Studentreport', 'POS Resto', 'Online Store', 'Pet Shop'];
-    return view('secondPage', ['judul' => "My Project", 'project' => $projects]);
-})->name('secondPage');
+Route::get('/about',
+[aboutController::class, 'about']);
 
-Route::get('/thirdPage', function () {
-    return view('thirdPage', ['title' => "Contact"]);
-})->name('thirdPage');
+Route::get('/contact',
+[contactController::class, 'contact']);
 
-Route::get('/new', function () {
-    return view('new', ['title' => "Blade Checkerboard"]); 
-})->name('new');
+Route::get('/chess',
+[chessController::class, 'chess']);
+
+Route::get('/student',
+[StudentController::class, 'student']);

@@ -10,9 +10,10 @@
     <body style="background: olive; display: flex; flex-direction: column; min-height: 100vh; padding: 60px 80px; margin: 0; box-sizing: border-box; justify-content: center;">
         <div style="display: flex; gap: 30px;">
             <a href="/welcome" style="color: white; text-decoration: none;">Home</a>
-            <a href="/secondPage" style="color: white; text-decoration: none;">About</a>
-            <a href="/thirdPage" style="color: white; text-decoration: none;">Contact</a>
-            <a href="/new" style="color: white; text-decoration: none;">Chess</a>
+            <a href="/about" style="color: white; text-decoration: none;">About</a>
+            <a href="/contact" style="color: white; text-decoration: none;">Contact</a>
+            <a href="/chess" style="color: white; text-decoration: none;">Chess</a>
+            <a href="/student" style="color: white; text-decoration: none;">Student List</a>
         </div>
         
         <h1 style="font-size: 70px; color: white;">
