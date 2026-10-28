@@ -13,6 +13,7 @@
             <a href="/contact" style="color: white; text-decoration: none;">Contact</a>
             <a href="/chess" style="color: white; text-decoration: none;">Chess</a>
             <a href="/student" style="color: white; text-decoration: none;">Student List</a>
+            <a href="/lecturer" style="color: white; text-decoration: none;">Lecturer List</a>
         </div>
         
         <text style="font-size: 70px; color: white;">

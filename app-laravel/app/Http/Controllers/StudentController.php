@@ -10,6 +10,6 @@ class StudentController extends Controller
 {
     public function student() {
             return view('student', ['title' => "Student List",
-            'listStudent' => Student::studentData()]);
+            'listStudent' => Student::all()]);
     }
 }

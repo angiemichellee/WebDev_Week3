@@ -5,6 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\ChessController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\LecturerController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', 
@@ -21,3 +22,6 @@ Route::get('/chess',
 
 Route::get('/student',
 [StudentController::class, 'student']);
+
+Route::get('/lecturer',
+[LecturerController::class, 'lecturer']);

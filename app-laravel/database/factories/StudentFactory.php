@@ -18,7 +18,9 @@ class StudentFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'project' => $this->faker->sentence,
+            'course' => $this->faker->sentence,
+            'lecturer' => $this->faker->name()
         ];
     }
 }
